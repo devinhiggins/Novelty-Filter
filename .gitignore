@@ -1,0 +1,12 @@
+filter.txt
+filtera.txt
+filterb.txt
+output.txt
+output/
+a.out
+novelty/outputs/filters/texts
+novelty/outputs/filters/corpus
+entropy.out
+.DS_Store
+.ipynb_checkpoints/
+*.pyc
