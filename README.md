@@ -1,7 +1,7 @@
 
 # Novelty Filter
 
-The code stored in this repository can be used to compute the proportion of text (of length *k*) that is novel, i.e. not yet seen. The algorithm is optimized to work with extremely large text sets by using a Bloom Filter.
+The novelty filter can be used to compute the proportion of text segments (of length *k*) that are new over a series of intervals in a larger text file. The algorithm uses a Bloom Filter to optimize performance on very large text files.
 
 The code examples below can be run interactively with [Jupyter Notebooks](http://jupyter.org/) via [Novelty.ipynb](novelty/Novelty.ipynb). A helpful introduction can be found in [NoveltyIntro.ipynb](novelty/NoveltyIntro.ipynb).
 
